@@ -1,6 +1,8 @@
-var counter = 0;
-
 function handleButtonClick() {
-  alert('Click ' + counter);
-  counter++;
+  chrome.tabs.create({
+    index: 0,
+    url: 'http://ya.ru'
+  }, function(tab){
+    console.log(tab.url);
+  });
 }

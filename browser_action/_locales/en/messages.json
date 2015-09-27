@@ -1,0 +1,9 @@
+{
+  "extensionName" : {
+    "message": "browser_action_from_en",
+    "description": "Optional description for message"
+  },
+  "extensionDescription": {
+    "message": "An example browser action ext"
+  }
+}

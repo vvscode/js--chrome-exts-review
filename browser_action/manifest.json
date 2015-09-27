@@ -2,5 +2,14 @@
   "manifest_version": 2,
   "name": "browser_action",
   "version": "0.1.0",
-  "description": "An example browser action ext"
+  "description": "An example browser action ext",
+  "browser_action": {
+    "default_title": "Use this to open the popup"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  }
 }

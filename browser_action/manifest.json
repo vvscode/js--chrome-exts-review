@@ -15,5 +15,12 @@
   },
   "permissions": [
     "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
   ]
 }
